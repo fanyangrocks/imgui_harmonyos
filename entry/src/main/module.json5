@@ -1,5 +1,10 @@
 {
   "module": {
+    "requestPermissions": [
+      {
+        "name": "ohos.permission.INTERCEPT_INPUT_EVENT"
+      }
+    ],
     "name": "entry",
     "type": "entry",
     "description": "$string:module_desc",
